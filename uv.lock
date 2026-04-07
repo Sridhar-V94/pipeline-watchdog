@@ -1,0 +1,20 @@
+version = 1
+requires-python = ">=3.10"
+
+[manifest]
+members = [
+    "pipeline-watchdog",
+]
+
+[[package]]
+name = "pipeline-watchdog"
+version = "1.0.0"
+source = { editable = "." }
+dependencies = [
+    { name = "fastapi" },
+    { name = "openai" },
+    { name = "openenv-core" },
+    { name = "pydantic" },
+    { name = "streamlit" },
+    { name = "uvicorn", extra = ["standard"] },
+]
