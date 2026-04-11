@@ -1,6 +1,0 @@
-openenv-core
-fastapi
-uvicorn[standard]
-pydantic
-openai
-streamlit
